@@ -1,0 +1,9 @@
+name: mlops-env
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - scikit-learn
+  - numpy
+  - pandas
+prefix: /opt/anaconda3/envs/mlops-env
